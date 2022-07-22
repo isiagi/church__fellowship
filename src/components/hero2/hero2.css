@@ -1,0 +1,19 @@
+.hero2__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.hero2__wrapper1 {
+    text-align: center;
+    margin-block: 1rem;
+    line-height: 5em;
+}
+
+.hero2__wrapper__inner {
+    line-height: 2em;
+}
+
+.hero2__wrapper__inner > p:last-child{
+    margin-top: 1em;
+}
