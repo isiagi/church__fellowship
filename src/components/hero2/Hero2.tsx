@@ -1,4 +1,5 @@
 import img from "../../assets/images/god.jpg";
+import Gallery from "../gallery/Gallery";
 import "./hero2.css";
 
 const Hero2 = () => {
@@ -24,10 +25,51 @@ const Hero2 = () => {
             ac. Sed nec scelerisque orci.
           </p>
         </div>
-        <img src={img} alt="group_photo" />
+        {/* <img src={img} alt="group_photo" /> */}
       </div>
-      <div className="group_photo">
-        <div></div>
+      <Gallery />
+      <div className="group__flip">
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              {/* <ModeStandbyOutlinedIcon style={{ fontSize: '3rem' }} /> */}
+              <h4>Our Mission</h4>
+            </div>
+            <div className="flip-card-back">
+              <p>
+                To see businesses embrace technology in their day to day
+                activities and business processes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              {/* <ModeStandbyOutlinedIcon style={{ fontSize: '3rem' }} /> */}
+              <h4>Our Vision</h4>
+            </div>
+            <div className="flip-card-back">
+              <p>
+                To see businesses embrace technology in their day to day
+                activities and business processes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              {/* <ModeStandbyOutlinedIcon style={{ fontSize: '3rem' }} /> */}
+              <h4>Know Us More</h4>
+            </div>
+            <div className="flip-card-back">
+              <p>
+                Continue
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
