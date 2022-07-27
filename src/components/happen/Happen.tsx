@@ -4,11 +4,13 @@ import HappenCarsouel from "./HappenCarsouel";
 const Happen = () => {
   return (
     <div className="happen__container">
-      <div className="happen__wrapper">
-        <div />
-        <h1>Whats Happening</h1>
+      <div style={{paddingTop:"5px"}}>
+        <div className="happen__wrapper">
+          <div />
+          <h1>Whats Happening</h1>
+        </div>
+        <HappenCarsouel />
       </div>
-      <HappenCarsouel />
     </div>
   );
 };

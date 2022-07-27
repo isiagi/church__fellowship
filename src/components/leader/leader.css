@@ -1,0 +1,34 @@
+.leader__container {
+    min-height: 90vh;
+}
+
+.leader__header {
+  text-align: center;
+}
+
+.leader__card {
+    border: 1px solid grey;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+.leader__card__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ 
+}
+
+.leader__card__img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.leader__card__img > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-position: center;
+
+}

@@ -1,0 +1,27 @@
+.sermon__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.sermon__col__card {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  height: 80px;
+  flex-wrap: wrap;
+}
+
+.sermon__col__img {
+  height: 80px;
+}
+
+.sermon__col__img > img {
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .sermon__grid {
+    grid-template-columns: 1fr;
+  }
+}

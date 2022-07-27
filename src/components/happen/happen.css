@@ -1,18 +1,23 @@
 .happen__container {
-  min-height: 100vh;
+  min-height: 90vh;
+  background: #fff;
 }
 
 .happen__wrapper {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-block: 2rem;
+  margin-top: 5rem;
+}
+
+.happen__wrapper > h1 {
+  color: #f2df3a;
 }
 
 .happen__wrapper div {
   width: 10%;
   height: 0.5rem;
-  background-color: red;
+  background-color: #0078aa;
 }
 
 .happen__card {
@@ -37,11 +42,13 @@
 }
 
 .happen__button > button {
-  padding: 10px;
+  padding: 15px;
   outline: none;
   border: none;
-  background-color: red;
+  background-color: #0078aa;
   border-radius: 4px;
+  color: #f6f6f6;
+  font-size: 15px;
 }
 
 .tryme {
