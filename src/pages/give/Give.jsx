@@ -25,12 +25,9 @@ export default function App() {
 
   return (
     <div>
-      <div className="about__wrapper">
-        <h1>Giving</h1>
-      </div>
-      <h1>Hello Test user</h1>
-
       <button
+      className="give__button"
+        type="submit"
         onClick={() => {
           handleFlutterPayment({
             callback: (response) => {
@@ -41,7 +38,7 @@ export default function App() {
           });
         }}
       >
-        Payment with React hooks
+        Give
       </button>
     </div>
   );

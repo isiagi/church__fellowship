@@ -5,7 +5,7 @@ import HomePage from "./homepage/HomePage";
 import About from "./about/About";
 import SermonPage from "./sermon/SermonPage";
 import NotFound from "./notFound/NotFound";
-import Give from "./give/Give";
+import Give from "./give/Luck";
 
 const index = () => {
   return (
