@@ -1,6 +1,6 @@
 .happen__container {
   min-height: 90vh;
-  background: #fff;
+  background: #f6f6f6;
 }
 
 .happen__wrapper {
@@ -15,9 +15,11 @@
 }
 
 .happen__wrapper div {
-  width: 10%;
+  width: 7%;
   height: 0.5rem;
-  background-color: #0078aa;
+  background-color: #25AFC2;
+  padding: 20px;
+  margin-left: 1rem;
 }
 
 .happen__card {

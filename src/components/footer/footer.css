@@ -1,0 +1,53 @@
+.footer__container {
+    min-height: 43vh;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+    line-height: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/god.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #0078aa;
+    width: 100%;
+}
+
+.footer__info {
+    max-width: 400px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.footer__contain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.lastFooter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 6vh;
+    align-items: center;
+    border-top: 1px solid grey;
+    background-color: #CC9544;
+    color: #fff;
+}
+
+.lastFooter__wrapper1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__links div > ul li {
+    color: #fff;
+    list-style: none;
+}
+
+.footer__links div > ul li:hover {
+    color: #007bff;
+}

@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer";
 import Happen from "../../components/happen/Happen";
 import Hero from "../../components/hero1/Hero";
 import Hero2 from "../../components/hero2/Hero2";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Happen />
       <Leader />
       <Sermons />
+      <Footer />
     </div>
   );
 };

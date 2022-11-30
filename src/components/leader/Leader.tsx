@@ -1,5 +1,8 @@
-import img from '../../assets/images/god.jpg'
+import img from "../../assets/images/god.jpg";
 import "./leader.css";
+
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Leader = () => {
   return (
@@ -8,47 +11,31 @@ const Leader = () => {
         <h1>Our Leader</h1>
         <p>
           lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit
-          amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip v
-          lorem ipsum dolor sit amet.
+          amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip v.
         </p>
       </div>
       <div className="leader__card__grid">
-        <div className="leader__card">
+        {[1, 2, 3, 4].map((num) => (
+          <div className="leader__card">
             <div className="leader__card__img">
-                <img src={img} alt="" />
+              <img src={img} alt="" />
             </div>
-            <div className="leader__card__text">
+            <div>
+              <div className="leader__card__text">
                 <h1>Father James</h1>
                 <p>Parish Presit</p>
+              </div>
+              <div>
+                <AiFillFacebook
+                  style={{ fontSize: "30px", color: "#23B8A1" }}
+                />
+                <AiFillTwitterCircle
+                  style={{ fontSize: "30px", color: "#23B8A1" }}
+                />
+              </div>
             </div>
-        </div>
-        <div className="leader__card">
-            <div className="leader__card__img">
-                <img src={img} alt="" />
-            </div>
-            <div className="leader__card__text">
-                <h1>Father James</h1>
-                <p>Parish Presit</p>
-            </div>
-        </div>
-        <div className="leader__card">
-            <div className="leader__card__img">
-                <img src={img} alt="" />
-            </div>
-            <div className="leader__card__text">
-                <h1>Father James</h1>
-                <p>Parish Presit</p>
-            </div>
-        </div>
-        <div className="leader__card">
-            <div className="leader__card__img">
-                <img src={img} alt="" />
-            </div>
-            <div className="leader__card__text">
-                <h1>Father James</h1>
-                <p>Parish Presit</p>
-            </div>
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

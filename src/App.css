@@ -9,7 +9,7 @@
 body {
   font-family: "Playball", cursive;
   font-family: "Poppins", sans-serif;
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
 }
 
 img {
@@ -20,4 +20,12 @@ img {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.bk1 {
+  color: rgb(41, 41, 41);
+}
+
+.bk2 {
+  color: rgb(91, 90, 90);
 }

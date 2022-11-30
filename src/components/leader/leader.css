@@ -1,27 +1,42 @@
 .leader__container {
     min-height: 90vh;
+    padding-block: 40px;
 }
 
 .leader__header {
   text-align: center;
 }
 
+.leader__header h1 {
+  color: rgb(41, 41, 41);
+}
+
+.leader__header p {
+  max-width: 600px;
+  margin: 32px auto;
+  color: rgb(61, 61, 61);
+}
+
 .leader__card {
-    border: 1px solid grey;
+    
     height: 50vh;
     display: grid;
     place-items: center;
 }
 
+.leader__card:hover {
+  border: 1px solid grey;
+}
+
 .leader__card__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- 
+  gap: 1rem;
 }
 
 .leader__card__img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin: 0 auto;
 }
 
@@ -31,4 +46,9 @@
   border-radius: 50%;
   object-position: center;
 
+}
+
+.leader__card__text h1 {
+  font-size: 1.5em;
+  color: #0078aa
 }

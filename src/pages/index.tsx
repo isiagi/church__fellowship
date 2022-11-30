@@ -9,17 +9,19 @@ import Give from "./give/Luck";
 
 const index = () => {
   return (
-    <Router>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/events" element={<Event />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/sermons" element={<SermonPage />} />
-        <Route path="/giving" element={<Give />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+    <div>
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/events" element={<Event />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/sermons" element={<SermonPage />} />
+          <Route path="/giving" element={<Give />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    </div>
   );
 };
 

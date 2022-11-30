@@ -1,5 +1,5 @@
 import img from "../../assets/images/god.jpg";
-import Button from "./Give"
+// import Button from "./Give"
 
 import "./give.css"
 
@@ -27,7 +27,7 @@ const Luck = () => {
             <input type="email" name="email" placeholder="Email" />
             <input type="text" name="number" placeholder="Number" required/>
             <input type="number" name="amount" placeholder="Amount" required/>
-            <Button />
+            {/* <Button /> */}
           </form>
         </div>
       </div>
@@ -50,7 +50,7 @@ const Luck = () => {
             <input type="email" name="email" placeholder="Email" />
             <input type="text" name="number" placeholder="Number" required/>
             <input type="number" name="amount" placeholder="Amount" required/>
-            <Button />
+            {/* <Button /> */}
           </form>
         </div>
       </div>
