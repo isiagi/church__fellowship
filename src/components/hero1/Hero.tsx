@@ -7,6 +7,10 @@ const Hero = () => {
         <h1>Come Let's Worship Together</h1>
         <h3 style={{color: "#23B8A1"}}>Every Wednesday 4 : 00pm - 7 : 00pm EAT</h3>
         <h3>At St. Matiya Muluba, Old Kampala</h3>
+        <div>
+          <button className="hero__wrapper__button__join">Join</button>
+          <button className="hero__wrapper__button__give">Give</button>
+        </div>
       </div>
     </div>
   );

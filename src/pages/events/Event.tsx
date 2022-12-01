@@ -11,25 +11,28 @@ const Event = () => {
         </p>
       </div>
       <div className="event__section">
-        <div className="event__item">
-          <div className="event__item__first">
-            <div className="event__item__img">
-              <img src={img} alt="" />
+        {[1, 2, 3, 4].map((event) => (
+          <div className="event__item">
+            <div className="event__item__first">
+              <div className="event__item__img">
+                <img src={img} alt="" />
+              </div>
+              <div className="event__item__text">
+                <h1>Batipsming</h1>
+                <p>
+                  Join us at any of our special events happening at St.Mutiya
+                  Muluba. Join us at any of our special events happening at
+                  St.Mutiya Muluba.
+                </p>
+              </div>
             </div>
-            <div className="event__item__text">
-              <h1>Batipsming</h1>
-              <p>
-                Join us at any of our special events happening at St.Mutiya
-                Muluba. Join us at any of our special events happening at
-                St.Mutiya Muluba.
-              </p>
+            <div className="event__item__second">
+              <h3>Jul</h3>
+              <h1>22</h1>
+              <h1>2022</h1>
             </div>
           </div>
-          <div className="event__item__second">
-            <h3>Jul</h3>
-            <h1>22</h1>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

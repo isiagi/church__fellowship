@@ -6,6 +6,7 @@ import About from "./about/About";
 import SermonPage from "./sermon/SermonPage";
 import NotFound from "./notFound/NotFound";
 import Give from "./give/Luck";
+import Footer from "../components/footer/Footer";
 
 const index = () => {
   return (
@@ -20,6 +21,7 @@ const index = () => {
           <Route path="/giving" element={<Give />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

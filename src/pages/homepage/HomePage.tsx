@@ -13,7 +13,6 @@ const HomePage = () => {
       <Happen />
       <Leader />
       <Sermons />
-      <Footer />
     </div>
   );
 };

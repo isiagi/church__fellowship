@@ -3,8 +3,8 @@ import "./sermon.css";
 
 const Sermons = () => {
   return (
-    <div>
-      <div>
+    <div style={{ background: "#f6f6f6", minHeight: "100vh" }}>
+      <div className="sermon__wrapper1">
         <h1>Sermons</h1>
         <p>
           lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet,
@@ -12,36 +12,17 @@ const Sermons = () => {
         </p>
       </div>
       <div className="sermon__grid">
-        <div className="sermon__col__card">
-          <div className="sermon__col__img">
-            <img src={img} alt="" />
+        {[1, 2, 3, 4, 5, 6].map((i, j) => (
+          <div className="sermon__col__card">
+            <div className="sermon__col__img">
+              <img src={img} alt="" />
+            </div>
+            <div className="sermon__col__text">
+              <h2>Chrismas Fest</h2>
+              <p>By Jean Oscars</p>
+            </div>
           </div>
-          <div className="sermon__col__text">
-            <h2>Chrismas Fest</h2>
-            <p>By Jean Oscars</p>
-          </div>
-          <div>X</div>
-        </div>
-        <div className="sermon__col__card">
-          <div className="sermon__col__img">
-            <img src={img} alt="" />
-          </div>
-          <div className="sermon__col__text">
-            <h2>Chrismas Fest</h2>
-            <p>By Jean Oscars</p>
-          </div>
-          <div>X</div>
-        </div>
-        <div className="sermon__col__card">
-          <div className="sermon__col__img">
-            <img src={img} alt="" />
-          </div>
-          <div className="sermon__col__text">
-            <h2>Chrismas Fest</h2>
-            <p>By Jean Oscars</p>
-          </div>
-          <div>X</div>
-        </div>
+        ))}
       </div>
     </div>
   );
