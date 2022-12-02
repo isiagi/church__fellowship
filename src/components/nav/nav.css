@@ -41,6 +41,11 @@
     font-size: 1.5em;
 }
 
+.nav__head {
+  max-width: 400px;
+  font-size: .9em;
+}
+
 @media screen and (max-width: 991px) {
   .nav__links {
     position: absolute;

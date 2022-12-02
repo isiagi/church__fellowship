@@ -11,6 +11,7 @@
 .hero__wrapper {
     text-align: center;
     line-height: 3em;
+    margin-top: 5rem;
 }
 
 .hero__wrapper > h1 {

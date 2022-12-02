@@ -17,7 +17,7 @@ const Nav = () => {
   return (
     <div className={offSet > 50 ? "nav__container1" : "nav__container"}>
       <div class="nav__head">
-        <h1>Mutiya Wednesday Fellow</h1>
+        <h1>St.Matia Mulumba Eucharistic Fellowship</h1>
       </div>
       <div className={`${"nav__links"} ${open ? "active" : ""}`}>
         <ul>
